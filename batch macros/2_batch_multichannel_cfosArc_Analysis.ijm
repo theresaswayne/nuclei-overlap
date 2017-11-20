@@ -7,7 +7,7 @@
 // IJ macro to analyze c-fos and Arc in nuclei, and Arc in whole image
 // Theresa Swayne, Columbia University, 2017
 // Based on IJ batch processing template
-// This macro processes all the images in a folder and any subfolders. But note that the results all end up in a single directory.
+// This macro processes all the images in a folder. It does not support subfolders.
 // input: a folder of 2-channel single-z TIFFs with channel 1 = (arc) and channel 2= (cfos)
 // the two channels are processed slightly differently and for channel 1, the whole image is measured in addition to the nuclei
 // output: 1 ROIset per image, one csv file per channel containing measurements of all images
